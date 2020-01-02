@@ -1,0 +1,525 @@
+body {
+    direction: rtl;
+   
+}
+
+.container-fluid {
+    padding: 0px;
+    margin: 0px;
+}
+
+/* start nav bar*/
+.nav-link {
+    transition: all .3s ease-in-out;
+}
+
+.nav-link:hover {
+    background-color: #fff;
+    color: #ed2733 !important;
+    border-radius: 10px;
+}
+
+.navbar-toggler {
+    background-color: #fff;
+    color: #ed2733 !important;
+
+}
+
+/*end nav bar*/
+
+/*start header*/
+.header {
+    position: absolute;
+    top: 35vh;
+    right: 21vh;
+}
+
+.header h2 {
+    margin-bottom: 30px;
+    margin-top: 30px;
+
+}
+
+.header h5 {
+    line-height: 2;
+    margin-bottom: 43px;
+}
+
+.button-header {
+    color: #fff;
+    background-color: #ed2733 !important;
+    border: none;
+    font-size: 22px;
+    padding: 7px 34px;
+    border: 2px solid #fff;
+
+
+}
+
+.button-header:hover {
+    background-color: #fff !important;
+    color: #ed2733;
+    border: 2px solid #ed2733;
+}
+
+.button-header2 {
+    background-color: #fff !important;
+    border: 2px solid #ed2733;
+    color: #ed2733;
+    padding: 11px 34px;
+    margin-right: 20px;
+    transition: all .3s ease-in-out;
+
+}
+
+.button-header2:hover {
+    background-color: #ed2733 !important;
+    color: #fff;
+    border: 2px solid #ed2733;
+
+}
+
+/*end header*/
+
+
+/*start order*/
+
+.order {
+
+    background-image: url(../images/Path-560.png);
+    background-repeat: no-repeat;
+    padding-bottom: 500px;
+    margin-top: 50px;
+}
+
+.order-col {
+    padding-top: 100px;
+}
+
+.order h2 {
+    margin-bottom: 23px;
+    font-size: 48px;
+}
+
+.order h5 {
+    font-size: 25px;
+}
+
+/*end order*/
+
+/*start cardd*/
+.cardd {
+    margin-top: -420px;
+    background-image: url(../images/line-shape.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+
+.cardd h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    font-size: 35px;
+}
+
+.cardd img {
+    width: 70%;
+    display: -webkit-box;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.cardd h6 {
+    text-align: center;
+    padding: 2px 10px;
+}
+
+.cardd a {
+    display: -webkit-box;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: #ed2733;
+    border: none;
+    padding: 7px 47px;
+    border-radius: 23px;
+}
+
+/*end cardd*/
+
+/*start advantage*/
+.advantage {
+    text-align: center;
+    background-color: #f9f9f9;
+    padding-top: 5px;
+    padding-bottom: 30px;
+    margin-top: 20px;
+    background-image: url(../images/Group-60.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+
+.back-advantage {
+    background-image: url(../images/Grou-56.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+
+.back-advantage2 {
+    background-image: url(../images/Group-148.png);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+}
+
+.back-advantage3 {
+    background-image: url(../images/Group-52.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.advantage h2 {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 87px;
+
+}
+
+.list-advantage {
+    font-size: 20px;
+    font-weight: 700;
+    margin-right: 25px;
+}
+
+.adv-width {
+    margin-bottom: 70px;
+}
+
+.num-advantage {
+    background-image: url(../images/list-shape.png);
+    padding: 11px 18px;
+    color: #fff;
+    margin-left: 7px;
+    position: absolute;
+    right: -1vh;
+}
+
+/*end advantage*/
+
+
+
+
+/*start charge*/
+
+.charge {
+    position: relative;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color: #fff;
+    background-color: #CF1F2A;
+    background-image: linear-gradient(90deg, rgb(151, 16, 24) 0%, rgb(237, 39, 51) 100%);
+}
+
+.charge h2 {
+    margin-top: 80px;
+    margin-bottom: 30px;
+
+}
+
+.charge h5 {
+    line-height: 1.7;
+    font-weight: 400;
+}
+
+.charge img {
+
+    width: 75%;
+    display: -webkit-box;
+    margin: 0 auto;
+    margin-left: -10px;
+}
+
+/*end charge*/
+
+
+/*start safe*/
+
+.safe {
+    margin-top: 70px;
+}
+
+.safe h2 {
+    padding-top: 179px;
+    margin-bottom: 30px;
+}
+
+.safe h5 {
+    line-height: 1.7;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+
+/*end safe*/
+
+
+/*start use*/
+
+.use h2 {
+    padding-top: 208px;
+    margin-bottom: 30px;
+}
+
+.use h5 {
+    line-height: 1.7;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.use img {
+    display: -webkit-box;
+    margin: 0 auto;
+    margin-right: 178px;
+}
+
+
+/*end use*/
+
+/*start how card*/
+
+.how {
+
+    text-align: center;
+    background-color: #f9f9f9;
+    padding-top: 44px;
+    padding-bottom: 158px;
+    background-image: url(../images/Path-806.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: contain;
+}
+
+.how h2 {
+    text-align: center;
+    margin-top: 125px;
+    margin-bottom: 57px;
+
+}
+
+/*end how card*/
+
+/*start download*/
+
+.download {
+    position: relative;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color: #fff;
+    background-color: #CF1F2A;
+    background-image: linear-gradient(90deg, rgb(151, 16, 24) 0%, rgb(237, 39, 51) 100%);
+    margin-top: 12px;
+}
+
+.download h2 {
+    margin-bottom: 38px;
+    padding-top: 60px;
+}
+
+.download h5 {
+    margin-bottom: 40px;
+    font-weight: 400;
+}
+
+.img-download {
+    display: -webkit-box;
+    margin: 0 auto;
+    margin-left: 0px;
+}
+
+/*end download*/
+
+
+/*start footer*/
+.footer {
+
+    background-color: #CF1F2A;
+    background-image: linear-gradient(90deg, rgb(151, 16, 24) 0%, rgb(97, 20, 87) 100%);
+    color: #fff;
+    padding-top: 88px;
+    
+}
+
+.footer .copy-right {
+    border: 1px solid #fff !important;
+    width: 100%;
+    margin-top: 24px;
+    margin-bottom: 14px;
+
+}
+
+
+.fa-facebook-f,
+.fa-youtube,
+.fa-twitter {
+    font-size: 25px;
+    border: 1px solid;
+    padding: 6px 11px;
+    border-radius: 16%;
+    margin-right: 7px;
+    transition: all .3s ease-in-out;
+}
+
+.fa-youtube,
+.fa-twitter {
+    padding: 6px 6px;
+
+}
+
+.fa-facebook-f,
+.fa-youtube,
+.fa-twitter:hover {
+    cursor: pointer;
+
+}
+
+.fa-facebook-f:hover {
+    background-color: #3c3467;
+}
+.fa-twitter:hover{
+    background-color: #1da1f2;
+}
+.fa-youtube:hover{
+    background-color: #e60000;
+}
+
+
+
+/*end footer*/
+
+/*start media query*/
+@media only screen and (max-width:768px) {
+
+    .navv {
+        width: 176%;
+    }
+
+    .header {
+        right: 19vh;
+        top: 50vh;
+    }
+
+    .img-header {
+        margin-top: 100px;
+    }
+
+
+    .order {
+
+        position: absolute;
+        top: 147vh;
+        width: 175%;
+        margin-top: 156px;
+    }
+
+    .cardd {
+        position: absolute;
+        top: 238vh;
+        right: 8vh;
+        margin-top: 10px;
+    }
+
+    .advantage {
+        position: absolute;
+        top: 398vh;
+        width: 173%;
+    }
+
+    .num-advantage {
+        position: absolute;
+        right: 5vh;
+    }
+
+    .list-advantage {
+        margin-right: 0px;
+    }
+
+    .charge {
+        position: absolute;
+        top: 576vh;
+        width: 175%;
+    }
+
+    .charge img {
+        margin-left: 73px;
+        margin-top: 40px;
+    }
+
+    .charge h2 {
+        margin-top: 5px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .charge h5 {
+        text-align: center;
+        font-size: 22px;
+        padding: 2px 20px;
+    }
+
+    .safe {
+        position: absolute;
+        top: 710vh;
+        right: 15vh;
+    }
+
+    .safe h2 {
+        padding-top: 81px;
+        text-align: center;
+        font-size: 43px;
+    }
+
+    .safe h5,
+    .use h2,
+    .use h5 {
+        text-align: center;
+    }
+
+    .use {
+        position: absolute;
+        top: 816vh;
+        right: 10vh;
+    }
+
+    .use img {
+        margin-right: 64px;
+        margin-top: 24px;
+    }
+
+    .how {
+        position: absolute;
+        top: 977vh;
+        width: 175%;
+
+    }
+
+    .download {
+        position: absolute;
+        top: 1079vh;
+        width: 176%;
+    }
+
+    .img-download {
+        margin-left: auto;
+        margin-top: 78px;
+    }
+    .footer{
+    position: absolute;
+    top: 1217vh;
+    width: 176%;
+    
+    }
+
+
+
+}
+
+/*end media query*/
